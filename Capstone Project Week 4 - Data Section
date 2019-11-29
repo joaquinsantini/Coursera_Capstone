@@ -1,0 +1,13 @@
+Data Section
+
+I will use information about the city of Toronto from Wikipedia, OpenStreetMaps and Foursquare.
+
+Wikipedia source: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+
+OpenStreetMaps source: API in Python using the GeoPy library
+
+Foursquare source: API in Python
+
+The first step is to load the information from Wikipedia to obtain the neighbourhoods from Toronto. Then, the second step
+is to locate with latitude and longitude every neighbourhood of Toronto. The next step is to use the Foursquare API to
+know the location of other coffee shops in every neighbourhood to know where I can open my own coffee shop.
